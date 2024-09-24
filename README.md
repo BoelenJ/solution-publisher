@@ -50,6 +50,7 @@ The above examples highlight the importance of using the same publisher for rela
 - Identify the "cross-publisher" layering for components, in the example above, identify the scenario where solution B (publisher B) contains a components of publisher A.
 - For these cross-publisher layers, try to clean those up by moving the customization to a new solution with the same publisher as the component, after which you can remove the customization from the other solution (solution B in this case). 
 - Introduce a proper solution publisher for any new developments.
+
 In our sample, these steps will result in the following set-up:
 - Solution A will contain Table A.
 - Solution B will contain solution B related components, but will no longer contain Table A.
